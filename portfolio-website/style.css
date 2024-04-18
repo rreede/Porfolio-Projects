@@ -1,0 +1,119 @@
+body,html {
+    margin:0;
+    padding:32px;
+    box-sizing:border-box;
+    height:100%;
+    color:rgb(71, 71, 71);
+    font-family: "Roboto", sans-serif;
+    background:rgb(245, 245, 245);
+    font-size:18px;
+}
+
+h1 {
+    margin:0;
+    margin-bottom:48px;
+    font-weight:normal;
+}
+
+main {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width:600px;
+    background:white;
+    box-sizing: border-box;
+    border-radius:32px;
+    padding:32px;
+    box-shadow:0px 0px 12px 1px rgba(0, 0, 0, 0.127);
+    border:1px solid lightgray;
+}
+
+.headshot-img {
+    width:150px;
+    height:150px;
+    border-radius:32px;
+}
+
+.contact-btn {
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    font-size:16px;
+    padding:12px 24px;
+    border-radius:32px;
+    border:none;
+    font-weight:bold;
+    color:white;
+    box-shadow:0px 0px 12px 1px #0073ff65;
+    background:linear-gradient(45deg,#00c6ff, #0072ff);
+}
+
+.see-projects-btn {
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    font-size:16px;
+    padding:12px 24px;
+    border-radius:32px;
+    border:none;
+    font-weight:bold;
+    color:white;
+     box-shadow:0px 0px 12px 1px #ff4e514d;
+    background:linear-gradient(45deg,
+#f9d423, #ff4e50);
+}
+
+
+.material-symbols-outlined {
+margin-right:12px;
+
+}
+
+.strenghts-text {
+    margin-top:12px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.call-to-action-btn-container {
+    display:flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+.passion-txt {
+    display:inline-block;
+    margin-top:24px;
+}
+
+.strengths-txt {
+    font-size:32px;
+}
+
+.icon {
+    font-size:24px;
+}
+
+.myskills {
+    font-size:24px;
+}
+
+.contact-me-modal {
+
+    display:none;
+    position:absolute;
+    width:600px;
+    height:600px;
+    max-width:600px;
+    background:white;
+    box-sizing: border-box;
+    border-radius:32px;
+    padding:32px;
+    box-shadow:0px 0px 12px 1px rgba(0, 0, 0, 0.127);
+    border:1px solid lightgray;
+}
